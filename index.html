@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Rock, Paper, Scissors</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css"
+    />
+  </head>
+  <body class="has-background-light" style="height: 100vh">
+    <h1 class="title has-text-centered">Rock Paper Scissors</h1>
+    <section class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column has-background-primary has-text-centered">
+            Player<br />
+            <button class="button has-text-centered" id="bRock">Rock</button>
+            <button class="button has-text-centered" id="bPaper">Paper</button>
+            <button class="button has-text-centered" id="bScissors">
+              Scissors
+            </button>
+          </div>
+          <div class="column has-background-danger has-text-centered">
+            Computer<br />
+            <p>The computer choose: <span id="cresult"></span></p>
+          </div>
+        </div>
+        <div class="column has-background-info has-text-centered">
+          The winner is: <br /><span id="winner"></span>
+        </div>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
